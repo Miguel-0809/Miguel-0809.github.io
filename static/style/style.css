@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    height: auto;    
+}
+
+body{
+    background-color: rgba(226, 221, 255, 0.9);
+    height: auto;
+    overflow-x: hidden;
+}
+/*NAVIGATION BAR*/
+
+.navBar{
+    height: auto;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navBar ul{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navBar a:hover{
+    background-color: rgba(10, 11, 97, 0.9);
+}
+
+/*MAIN DIVISION*/
+
+.mainDivision{
+    border: 3px solid brown;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+/* LEFT PART*/
+
+.left{
+    width: 28%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.left-card{
+    background-color:  rgba(242, 241, 247, 0.9);
+    margin-bottom: 20px;
+    height: auto;
+    box-shadow: 0 4px 15px 0 rgba(78, 75, 75, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* LEFT PART - profile*/
+.myPhoto{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(73, 57, 223);
+    display: grid;
+    align-content: center;
+}
+
+.myPhoto i{
+    font-size: 650%;
+    margin: 0 auto;
+    color: white;
+}
+
+.left-card-text p{
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.left-card-text i{
+    width: 24px;
+    font-size: 15px;
+    color: rgb(20, 20, 175);
+}
+
+/* LEFT PART - projects */
+
+.left-card h3{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(181, 198, 223);
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 70px auto;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+
+.projects img{
+    height: 50px;
+    width: 50px;
+    margin: 5px auto;
+    z-index: 1;
+}
+
+.projects p{
+    padding: 10px 0;
+}
+
+.projects:hover{
+    background-color: rgb(192, 201, 206);
+}
+
+/* RIGHT PART*/
+.right{
+    border: 1px solid purple;
+    height: auto;
+    width: 68%;
+    margin: 0 auto;
+}
+
+/* FOOTER*/
+footer{
+    border: 1px solid green;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+}
