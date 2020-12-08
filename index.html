@@ -8,6 +8,11 @@
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/e76b00227b.js" crossorigin="anonymous"></script>
 
+    <!-- FONT STYLE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- STYLE-->
     <link rel="stylesheet" href="static/style/style.css">
     <title>VirtualCV</title>
 </head>
@@ -17,9 +22,9 @@
     <!-- NAVIGATION BAR-->
     <div class="navBar">
         <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Education">Education</a></li>
+            <li><a href="#About"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#Skills"><i class="fas fa-pencil-ruler"></i> Skills</a></li>
+            <li><a href="#Education"><i class="fas fa-book"></i> Education</a></li>
         </ul>
     </div>
 
@@ -55,7 +60,8 @@
 
             <!-- RIGTH PART - About-->
             <div id="About" class="right-card">
-                <h2>About</h2>
+                <img src="static/imagenes/autodidacta.jpg" alt="autodidacta">
+                <h2><i class="fas fa-user"></i>About</h2>
                 <div class="right-content">
                     <p>Mi nombre es Miguel, soy estudiante de la carrera de Ingenieria Informática,
                         me gusta la programación y actualmente estoy aprendiendo a crear aplicaciones web. Este es mi
@@ -68,42 +74,42 @@
 
             <!-- RIGHT PART - Skill-->
             <div id="Skills" class="right-card">
-                <h2>Skills</h2>
+                <h2><i class="fas fa-pencil-ruler"></i>Skills</h2>
                 <div class="right-content">
                     <div class="tools">
                         <h3>Tools</h3>
 
                         <h4>Microsoft Office</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill1" class="skill-perc">
                                 <p>80%</p>
                             </div>
                         </div>
 
                         <h4>HTML</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill2" class="skill-perc">
                                 <p>90%</p>
                             </div>
                         </div>
 
                         <h4>CSS</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill3" class="skill-perc">
                                 <p>70%</p>
                             </div>
                         </div>
 
                         <h4>Javascript</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill4" class="skill-perc">
                                 <p>65%</p>
                             </div>
                         </div>
 
                         <h4>React</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill5" class="skill-perc">
                                 <p>50%</p>
                             </div>
                         </div>
@@ -113,19 +119,19 @@
 
                         <h4>Spanish</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill6" class="skill-perc">
                             </div>
                         </div>
 
                         <h4>English</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill7" class="skill-perc">
                             </div>
                         </div>
 
                         <h4>French</h4>
                         <div class="skill-bar">
-                            <div class="skill-perc">
+                            <div id="skill8" class="skill-perc">
                             </div>
                         </div>
                     </div>
@@ -134,24 +140,24 @@
 
             <!-- RIGHT PART - Education-->
             <div id="Education" class="right-card">
-                <h2>Education</h2>
+                <h2><i class="fas fa-book"></i>Education</h2>
                 <div class="right-content">
 
                     <div class="edu-item">
                         <p>Pontificia Universidad Católica del Perú</p>
-                        <p>2015 - Actualidad</p>
+                        <p><i class="fas fa-calendar-alt"></i>2015 - Actualidad</p>
                         <p>Universidad</p>
                     </div>
 
                     <div class="edu-item">
                         <p>Colegio Mayor Secundario Presidente Del Perú</p>
-                        <p>2011 - 2013</p>
+                        <p><i class="fas fa-calendar-alt"></i>2011 - 2013</p>
                         <p>Secundaria</p>
                     </div>
 
                     <div class="edu-item">
                         <p>Colegio Santiago Antúnez de Mayolo</p>
-                        <p>2009-2011</p>
+                        <p><i class="fas fa-calendar-alt"></i>2009-2011</p>
                         <p>Secundaria</p>
                     </div>
                 </div>
@@ -162,9 +168,10 @@
     </div>
 
     <footer>
-        <h2>Find me!</h2>
-        <a href="https://www.facebook.com/miguelangel.paucarnavarro" target="_blank">Fb</a>
-        <a href="https://www.instagram.com/miguel_p987/" target="_blank">Ig</a>
+        <h2>Find</h2>
+        <h2>me!</h2>
+        <a href="https://www.facebook.com/miguelangel.paucarnavarro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/miguel_p987/" target="_blank"><i class="fab fa-instagram"></i></a>
     </footer>
 
 </body>
